@@ -1,3 +1,5 @@
+mod core;
+
 use std::{net::TcpListener, thread::spawn};
 
 use tungstenite::{

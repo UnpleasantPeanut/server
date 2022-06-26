@@ -1,4 +1,4 @@
-use crate::health::Health;
+use super::health::Health;
 
 pub struct Being {
     health: Health
